@@ -1,0 +1,21 @@
+<head>
+  <title>Technologies</title>
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <h1>Technologies</h1>
+  </header>
+
+  <ul>
+    {{#each technologies}}
+    {{> technology}}
+    {{/each}}
+  </ul>
+</div>
+</body>
+
+<template name="technology">
+  <li>{{text}}</li>
+</template>
